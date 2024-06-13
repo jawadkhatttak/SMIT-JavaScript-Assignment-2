@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weekend and Weekday Checker Program</title>
+  </head>
+  <body>
+    <script>
+      alert("Weekend and Weekday Checker");
+      let day = prompt("What day is today?  lowercase Please");
+      if (day === "saturday" || day === "sunday") {
+        alert("Its Weekend");
+      } else if (
+        day === "monday" ||
+        day === "tuesday" ||
+        day === "wednesday" ||
+        day === "thursday" ||
+        day === "friday"
+      ) {
+        alert("Its Weekday");
+      } else {
+        alert("Input Invalid");
+      }
+    </script>
+  </body>
+</html>

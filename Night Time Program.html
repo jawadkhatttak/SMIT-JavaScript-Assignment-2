@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Night time Checker</title>
+  </head>
+  <body>
+    <script>
+      alert("Checking Night Time Program");
+      let time = prompt("What time is it(0-23)");
+      if (time < 0 || time > 23)
+      {
+        alert("Invalid Hour, Time should be 0-23")
+      }
+      else if (!(time >= 5 && time <= 19)) {
+        alert("Its night time");
+      } else {
+        alert("Its day time");
+      }
+    </script>
+  </body>
+</html>

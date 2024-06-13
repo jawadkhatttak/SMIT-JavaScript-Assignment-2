@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Access Program</title>
+  </head>
+  <body>
+    <script>
+      let user1 = "user1";
+      let user2 = "user2";
+      let user3 = "user3";
+      let pass1 = "pass1";
+      let pass2 = "pass2";
+      let pass3 = "pass3";
+
+      let userNameInput = prompt("username");
+      let userPasswordInput = prompt("password");
+      if (
+        (userNameInput === user1 && userPasswordInput === pass1) ||
+        (userNameInput === user2 && userPasswordInput === pass2) ||
+        (userNameInput === user3 && userPasswordInput === pass3)
+      ) {
+        alert("Log in successful");
+      } else {
+        alert("username or password is wrong! , try again");
+      }
+    </script>
+  </body>
+</html>
